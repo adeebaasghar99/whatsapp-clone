@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Alex+Brush&family=Anton&family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Great+Vibes&family=Mrs+Saint+Delafield&family=Noto+Serif+Oriya:wght@400..700&family=Parisienne&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rye&family=Satisfy&family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: "roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.head img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.line-1 {
+    background-color: rgb(242, 235, 238);
+    display: flex;
+    align-items: center;
+}
+
+.head {
+    display: flex;
+    background-color: rgb(242, 235, 238);
+    width: 350px;
+    padding: 10px 15px;
+    border-right: 1px solid rgba(137, 133, 133, 0.1);
+    justify-content: space-between;
+
+}
+
+.line-2 {
+    position: relative;
+}
+
+.line-2 i {
+    position: absolute;
+    margin-left: 85%;
+    color: rgb(10, 10, 88);
+}
+
+.L-1 {
+    margin-left: 30%;
+
+}
+
+i {
+    font-size: 20px;
+    padding: 13px;
+    color: grey;
+}
+
+.wifi img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.line-2 {
+    background-color: rgb(158, 225, 254);
+    width: 350px;
+    height: 90px;
+    display: flex;
+    color: rgb(10, 10, 88);
+    position: relative;
+}
+
+.wifi {
+    display: flex;
+    color: rgb(10, 10, 88);
+}
+
+.wifi-text {
+    margin: 19px 10px;
+}
+
+.main-1 {
+    display: flex;
+}
+
+.avatar img {
+    width: 60px;
+    height: 50px;
+    border-radius: 60%;
+}
+
+.message-container {
+    display: flex;
+    width: 600px;
+    height: 70px;
+    background-color: rgb(242, 235, 238);
+    padding: 10px 15px;
+    border-right: 1px solid rgba(137, 133, 133, 0.1);
+
+}
+
+.mess-heading {
+    margin: 15px;
+    font-family: "roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.heading-icon {
+    margin-left: 50%;
+}
+
+.profile {
+    display: flex;
+    width: 400px;
+    height: 70px;
+    background-color: #F0ECEB;
+    padding: 10px 15px;
+    border-right: 1px solid rgba(137, 133, 133, 0.1);
+}
+
+.profile-heading {
+    margin-top: 3%;
+    font-family: "roboto", serif;
+    font-weight: 50;
+    font-style: normal;
+}
+
+.main-1 .side-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.line-3 input {
+    width: 250px;
+    padding: 9px;
+    border: none;
+
+}
+
+.line-3 {
+    display: flex;
+    margin-left: 30px;
+}
+
+.chat-box img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.text {
+    display: flex;
+    margin: 10px;
+
+}
+
+
+.chat-box {
+    display: flex;
+    width: 350px;
+    height: 70px;
+    background-color: rgb(247, 243, 243);
+    position: absolute;
+}
+
+.p {
+    margin-left: 150px;
+}
+
+.side {
+    display: flex;
+    margin-top: 33px;
+}
+
+.time {
+    display: flex;
+    position: relative;
+
+}
+
+.left {
+    margin: 40px;
+    margin-left: 2%;
+    display: flex;
+    width: 17%;
+    height: 0;
+}
+
+#box {
+    font-size: 12px;
+    bottom: 30px;
+    margin-left: 15px;
+}
