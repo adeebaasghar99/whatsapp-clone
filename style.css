@@ -168,29 +168,37 @@ i {
     height: 70px;
     background-color: rgb(247, 243, 243);
     position: absolute;
+    margin-bottom: 0%;
 }
 
 .p {
-    margin-left: 150px;
+    margin-left: 135px;
 }
 
 .side {
     display: flex;
     margin-top: 33px;
+    margin-left: 56%;
 }
 
 .time {
     display: flex;
     position: relative;
+}
 
+.massage-container {
+    width: 600px;
+    height: 500px;
+    background-image: url(./whatsapp\ background.jpg);
 }
 
 .left {
-    margin: 40px;
-    margin-left: 2%;
+    margin-top: 30px;
+    margin-left: 5%;
     display: flex;
     width: 17%;
-    height: 0;
+
+
 }
 
 #box {
@@ -198,6 +206,103 @@ i {
     bottom: 30px;
     margin-left: 15px;
 }
-.main-2{
+
+.main-2 {
     display: flex;
+}
+
+.policy {
+    display: flex;
+    background-color: rgb(255, 255, 174);
+    margin: 20px;
+    font-size: 13px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+.timing {
+    background-color: rgb(207, 250, 250);
+    margin-left: 40%;
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+}
+
+.friend {
+    width: 210px;
+    height: 40px;
+    margin-left: 10px;
+    padding: 5px;
+    background-color: white;
+}
+
+.me {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    margin-left: 67%;
+    padding: 10px;
+    padding-top: 1px;
+    background-color: rgb(218, 255, 194);
+}
+
+.new {
+    font-size: 10px;
+    margin-left: 100px;
+    display: flex;
+    padding: 5px;
+}
+
+.new i {
+    font-size: 10px;
+}
+
+.last-line {
+    display: flex;
+    background-color: rgb(237, 234, 234);
+}
+
+.last-line input {
+    width: 800px;
+    height: 40px;
+    border: none;
+}
+
+.picture img {
+    border-radius: 50%;
+    margin-left: 20%;
+}
+
+.contacts {
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.picture strong {
+    margin-left: 27%;
+}
+
+span {
+    color: blue;
+
+}
+
+.row {
+    display: flex;
+    gap: 20px;
+    margin: 30px;
+}
+
+.row img {
+    width: 30%;
+    height: 50px;
+
+}
+
+.first-row {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.end{
+    margin: 10px;
 }
